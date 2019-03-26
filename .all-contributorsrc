@@ -1,0 +1,65 @@
+{
+  "projectName": "talktalk-rn",
+  "projectOwner": "dooboolab",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 60,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
+  "types": {
+    "custom": {
+      "symbol": "🔭",
+      "description": "A custom contribution type.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
+  },
+  "contributors": [
+    {
+      "login": "hyochan",
+      "name": "Hyo Chan Jang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27461460?v=4",
+      "profile": "http://dooboolab.com",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "geoseong",
+      "name": "TaeSeong Park",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19166187?v=4",
+      "profile": "https://github.com/geoseong",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "cometkim",
+      "name": "Hyeseong Kim",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9696352?v=4",
+      "profile": "https://blog.cometkim.kr",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "YongPilMoon",
+      "name": "YongPilMoon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22088158?v=4",
+      "profile": "https://github.com/YongPilMoon",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "commit": true
+}

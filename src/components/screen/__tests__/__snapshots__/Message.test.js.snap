@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering test should render as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  <FlatList
+    ListEmptyComponent={
+      <Shared
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flex": 1,
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        No content
+      </Shared>
+    }
+    contentContainerStyle={null}
+    data={
+      Array [
+        Chatroom {
+          "chats": undefined,
+          "created": undefined,
+          "id": "",
+          "lastChat": Chat {
+            "created": undefined,
+            "id": "",
+            "message": "How are you?",
+            "sender": User {
+              "Chatrooms": Array [],
+              "chatrooms": undefined,
+              "created": undefined,
+              "displayName": "dooboolab",
+              "friends": undefined,
+              "isOnline": true,
+              "photoURL": "",
+              "statusMsg": "I am fine",
+              "uid": "sender_uid1",
+              "updated": undefined,
+            },
+            "updated": undefined,
+          },
+          "lastChatCnt": 6,
+          "updated": undefined,
+          "users": undefined,
+        },
+        Chatroom {
+          "chats": undefined,
+          "created": undefined,
+          "id": "",
+          "lastChat": Chat {
+            "created": undefined,
+            "id": "",
+            "message": "Hi. This is student from react-native-seoul. Nice to meet you.",
+            "sender": User {
+              "Chatrooms": Array [],
+              "chatrooms": undefined,
+              "created": undefined,
+              "displayName": "Byun8585",
+              "friends": undefined,
+              "isOnline": false,
+              "photoURL": "",
+              "statusMsg": "hello folks",
+              "uid": "sender_uid2",
+              "updated": undefined,
+            },
+            "updated": undefined,
+          },
+          "lastChatCnt": 0,
+          "updated": undefined,
+          "users": undefined,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    style={
+      Object {
+        "alignSelf": "stretch",
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</View>
+`;

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bgSplash" translatesAutoresizingMaskIntoConstraints="NO" id="OAG-so-Z2e">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="490"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TalkTalk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTl-G3-Fyu">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OTl-G3-Fyu" secondAttribute="bottom" id="3WQ-Cy-IIF"/>
+                <constraint firstAttribute="trailing" secondItem="OAG-so-Z2e" secondAttribute="trailing" id="G3v-bI-lhD"/>
+                <constraint firstAttribute="trailing" secondItem="OTl-G3-Fyu" secondAttribute="trailing" id="WsH-5k-cDu"/>
+                <constraint firstAttribute="bottom" secondItem="OAG-so-Z2e" secondAttribute="bottom" id="YL2-y3-XRG"/>
+                <constraint firstItem="OTl-G3-Fyu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dmi-Sz-Iez"/>
+                <constraint firstItem="OAG-so-Z2e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iag-P8-HcB"/>
+                <constraint firstItem="OTl-G3-Fyu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="k3l-be-vQE"/>
+                <constraint firstItem="OAG-so-Z2e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vLF-aU-Fo7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="547.20000000000005" y="454.27286356821594"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgSplash" width="360" height="640"/>
+    </resources>
+</document>

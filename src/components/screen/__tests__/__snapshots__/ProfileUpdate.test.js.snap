@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering test renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <ScrollViewMock
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "stretch",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "marginTop": 48,
+          "width": "78%",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.5}
+        onPress={[Function]}
+      >
+        <Component
+          color="rgb(65,77,107)"
+          light={true}
+          name="meh"
+          size={80}
+        />
+      </TouchableOpacity>
+      <Shared
+        labelStyle={
+          Object {
+            "color": "rgb(134,154,183)",
+            "fontSize": 12,
+            "marginBottom": 8,
+          }
+        }
+        labelStyleFocus={
+          Object {
+            "color": "rgb(58,139,255)",
+            "fontSize": 12,
+            "marginBottom": 8,
+          }
+        }
+        onTextChanged={[Function]}
+        style={
+          Object {
+            "marginTop": 80,
+          }
+        }
+        txt=""
+        txtHint="name"
+        txtLabel="name"
+      />
+      <Shared
+        labelStyle={
+          Object {
+            "color": "rgb(134,154,183)",
+            "fontSize": 12,
+            "marginBottom": 8,
+          }
+        }
+        labelStyleFocus={
+          Object {
+            "color": "rgb(58,139,255)",
+            "fontSize": 12,
+            "marginBottom": 8,
+          }
+        }
+        onTextChanged={[Function]}
+        style={
+          Object {
+            "marginTop": 24,
+          }
+        }
+        txt=""
+        txtHint="Status message"
+        txtLabel="Status message"
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 48,
+            "marginTop": 24,
+            "width": "100%",
+          }
+        }
+      >
+        <Button
+          activeOpacity={0.5}
+          height={60}
+          id="logout"
+          indicatorColor="white"
+          isDisabled={false}
+          isLoading={false}
+          isWhite={true}
+          onPress={[Function]}
+          width={136}
+        >
+          Logout
+        </Button>
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Button
+          activeOpacity={0.5}
+          height={60}
+          id="update"
+          indicatorColor="white"
+          isDisabled={false}
+          isLoading={false}
+          isWhite={false}
+          onPress={[Function]}
+          width={136}
+        >
+          Update
+        </Button>
+      </View>
+    </View>
+  </ScrollViewMock>
+</View>
+`;
